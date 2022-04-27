@@ -19,69 +19,14 @@ from tf.transformations import quaternion_from_euler
 
 # Parameters
 
-# # ACRE-Sorghum
-# intensity_threshold = 100                                # Change
-# # forward_radius_threshold = 1.2                                # Change
-# forward_radius_threshold = 1.6                                # Change
-
-# backward_radius_threshold = 2.2
-# # line_extraction_period = 10    # per 4s = 20/(300rpm/60)
-
-# angle_resolution = 1    # 360 / 360
-# # dx = 1
-# velocity = 0.03     # 0.15
-# dx = velocity
-# theta_weight = 0.06 #0.75  #0.6 #0.5
-# near_area_dist = 0.4
-# next_goal_dist_threshold = 0.2#0.21
-# angular_velocity_in_place = 0.8
-# direction_threshold = -0.8
-
-# micro_control_weight = 0.5
-
-# forward_angle_start = 40
-# forward_angle_range = 45   # angle(degree) = angle_range * angle_resolution
-
-# backward_angle_start = 100  #100
-# backward_angle_range = 60   #70 # angle(degree) = angle_range * angle_resolution
-
-
-
-# ACRE-Sorghum
-# intensity_threshold = 100                                # Change
-# # forward_radius_threshold = 1.2                                # Change
-# forward_radius_threshold = 1.6#1.6                                # Change
-
-# backward_radius_threshold = 2.2
-# # line_extraction_period = 10    # per !4s = 20/(300rpm/60)
-
-# angle_resolution = 1    # 360 / 360
-# dx = 1       # 0.08
-# velocity = 0.1     # 0.15
-# theta_weight = 1 #0.75  #0.6 #0.5
-# near_area_dist = 0.5
-# next_goal_dist_threshold = 0.22
-# angular_velocity_in_place = 1.0
-# direction_threshold = -0.8
-
-# micro_control_weight = 0.6
-
-# forward_angle_start = 30
-# forward_angle_range = 90   # angle(degree) = angle_range * angle_resolution
-
-# backward_angle_start = 80  #100
-# backward_angle_range = 20  #30 #70 # angle(degree) = angle_range * angle_resolution
-
 # ACRE-Corn
-intensity_threshold = 100                                # Change
-# forward_radius_threshold = 1.2                                # Change
-forward_radius_threshold = 1.6                                # Change
+intensity_threshold = 100                               
+# forward_radius_threshold = 1.2                                
+forward_radius_threshold = 1.6                              
 
 backward_radius_threshold = 2.2
-# line_extraction_period = 10    # per 4s = 20/(300rpm/60)
 
 angle_resolution = 1    # 360 / 360
-# dx = 1
 velocity = 0.1     # 0.15
 dx = velocity
 theta_weight = 0.05 #0.75  #0.6 #0.5
@@ -98,14 +43,12 @@ forward_angle_range = 75   # angle(degree) = angle_range * angle_resolution
 backward_angle_start = 100  #100
 backward_angle_range = 70   #70 # angle(degree) = angle_range * angle_resolution
 
-
 # Define arrays
 pose_robot = np.array([0, 0])
 cur_dir_robot = np.array([1, 0])
 
 # Autonomous navigation class
 class NaviIntegration:
-    
     # AMCL pose callback function
     def PoseListener(self):
 
