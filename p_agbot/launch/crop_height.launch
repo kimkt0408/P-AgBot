@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="p_agbot" type="crop_height.py" name="crop_height" output="screen" />
+</launch>

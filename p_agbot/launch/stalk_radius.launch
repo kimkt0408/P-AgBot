@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="p_agbot" type="stalk_radius.py" name="stalk_radius" output="screen" />
+</launch>
+

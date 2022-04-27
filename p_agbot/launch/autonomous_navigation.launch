@@ -1,0 +1,7 @@
+<launch>
+    <group ns="move_base_seq">
+        <rosparam file="$(find navigation_goals)/param/navigation_goals_param.yaml" />
+    </group>
+
+    <node pkg="p_agbot" type="autonomous_navigation.py" name="autonomous_navigation" output="screen" />
+</launch>

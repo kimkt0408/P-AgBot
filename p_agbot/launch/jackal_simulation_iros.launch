@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find jackal_gazebo)/launch/iros_world.launch" />
+    
+    <include file="$(find jackal_navigation)/launch/amcl_lds.launch">
+        <arg name="map_file" value="/home/kimkt0408/acre_corn_iros.yaml" />
+    </include>
+
+    <!-- Rviz visualization -->
+    <arg name="rviz"   value="$(find p_agbot)/rviz/p_agbot.rviz" /> 
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz)" />
+</launch>
