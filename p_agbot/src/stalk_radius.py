@@ -18,52 +18,7 @@ from sensor_msgs.msg import LaserScan, PointCloud, ChannelFloat32
 from geometry_msgs.msg import Pose, Point, Quaternion, Point32
 from tf.transformations import quaternion_from_euler
 
-### TWO-CORNS ENVIRONMENT ###
-
-# ANGLE_RESOLUTION = 1.0          # float: 360 / 360
-# MIN_SAMPLES1 = 9   #15
-# MAX_DISTANCE1 = 0.013 #0.0081              # The maximum distance between two samples for one to be considered as in the neighborhood of the other.
-
-# MIN_SAMPLES2_RATIO = 4    #8
-# MIN_SAMPLES2 = 4    #8
-# MAX_DISTANCE2 = 0.02              # The maximum distance between two samples for one to be considered as in the neighborhood of the other.
-
-# MIN_RANGE = 0.1                   # The minimum laser scan range to use: To prevent to creating results due to Kinova arm
-# MAX_RANGE = 0.65                   # The maximum laser scan range to use: To prevent to creating results due to Kinova arm
-
-# GROUND_TRUTH_RADIUS_SIM = 0.012367
-
-# TIME_PERIOD = 5 #10
-
-# DIST_THRESHOLD = 0.3
-
-# ROW_INTERVAL = 0.7
-# DIST_THRESHOLD_X = 0.3          # 0.2
-# DIST_THRESHOLD_Y = ROW_INTERVAL * 0.5
-
-# ANGLE_RESOLUTION = 1.0          # float: 360 / 360
-# MIN_SAMPLES1 = 8   #15
-# MAX_DISTANCE1 = 0.012 #0.0081              # The maximum distance between two samples for one to be considered as in the neighborhood of the other.
-
-# MIN_SAMPLES2_RATIO = 4    #8
-# MIN_SAMPLES2 = 4    #8
-# MAX_DISTANCE2 = 0.02              # The maximum distance between two samples for one to be considered as in the neighborhood of the other.
-
-# MIN_RANGE = 0.1                   # The minimum laser scan range to use: To prevent to creating results due to Kinova arm
-# MAX_RANGE = 1.3                   # The maximum laser scan range to use: To prevent to creating results due to Kinova arm
-
-
-# GROUND_TRUTH_RADIUS_SIM = 0.012367
-
-# TIME_PERIOD = 5 #10
-
-# DIST_THRESHOLD = 0.3
-
-# ROW_INTERVAL = 0.7
-# DIST_THRESHOLD_X = 0.2
-# DIST_THRESHOLD_Y = ROW_INTERVAL * 0.5
-
-# ### ACRE-CORN-SIM ENVIRONMENT ###
+# ### CORN-SIM ENVIRONMENT ###
 
 ANGLE_RESOLUTION = 1.0          # float: 360 / 360
 MIN_SAMPLES1 = 8   #15
