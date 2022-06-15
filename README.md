@@ -22,5 +22,5 @@ catkin_make
 P-AgBot is speficifally designed with a vertically placed Ouster OS1-64 on a UGV Clearpath Jackal.
 
 <p align='center'>
-    <img src="/LeGO-LOAM/launch/jackal-label.jpg" alt="drawing" width="400"/>
+    <img src="/p_agbot_description.png" alt="drawing" width="400"/>
 </p>
