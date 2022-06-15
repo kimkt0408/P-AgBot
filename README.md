@@ -9,6 +9,7 @@ This repository contains a code for crop monitoring modules (corn height, corn s
 ## Dependency
 
 - [ROS](http://wiki.ros.org/ROS/Installation) (tested with melodic)
+- [Clearpath Jackal simulation](https://www.clearpathrobotics.com/assets/guides/kinetic/jackal/simulation.html)
 
 ## Compile
 
@@ -20,6 +21,14 @@ git clone https://github.com/kimkt0408/P-AgBot.git
 cd ..
 catkin_make
 ```
+
+## The system
+
+P-AgBot consists of a unique combination and configuration of integrated sensors. P-AgBot and its components are as follows: 1. Tracking camera, 2. 3D LiDAR sensor, 3. Two-finger style gripper, 4. RGB-D camera, 5. Six degree-of-freedom robotic arm, 6. Servo motor, 7. 3D printed linkage with nichrome wire end-effector, and 8. 2D LiDAR sensor
+
+<p align='center'>
+    <img src="/p_agbot_description.png" alt="drawing" width="400"/>
+</p>
 
 ## The system
 
