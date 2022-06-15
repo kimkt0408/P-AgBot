@@ -1,5 +1,5 @@
 <launch>
-    <include file="$(find jackal_gazebo)/launch/iros_world.launch" />
+    <include file="$(find p_agbot)/launch/simulation_world.launch" />
     
     <include file="$(find p_agbot)/launch/amcl_lds.launch">
         <arg name="map_file" value="$(find p_agbot)/map/corn_field.yaml" />
