@@ -1,8 +1,8 @@
 <launch>
     <include file="$(find jackal_gazebo)/launch/iros_world.launch" />
     
-    <include file="$(find jackal_navigation)/launch/amcl_lds.launch">
-        <arg name="map_file" value="/home/kimkt0408/acre_corn_iros.yaml" />
+    <include file="$(find p_agbot)/launch/amcl_lds.launch">
+        <arg name="map_file" value="$(find p_agbot)/map/corn_field.yaml" />
     </include>
 
     <!-- Rviz visualization -->
