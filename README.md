@@ -8,8 +8,8 @@ This repository contains a code for crop monitoring modules (corn height, corn s
 
 ## Dependency
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (Tested with melodic)
-- [Clearpath Jackal simulation](https://www.clearpathrobotics.com/assets/guides/kinetic/jackal/simulation.html) (Follow the instructions to use the simulation)
+- [ROS](http://wiki.ros.org/ROS/Installation) (Tested with melodic.)
+- [Clearpath Jackal simulation](https://www.clearpathrobotics.com/assets/guides/kinetic/jackal/simulation.html) (Follow the instructions to use the simulation.)
 
 ## Compile
 
