@@ -30,10 +30,32 @@ P-AgBot consists of a unique combination and configuration of integrated sensors
     <img src="/p_agbot_description.png" alt="drawing" width="400"/>
 </p>
 
-## The system
+## Run the package
 
-P-AgBot consists of a unique combination and configuration of integrated sensors. P-AgBot and its components are as follows: 1. Tracking camera, 2. 3D LiDAR sensor, 3. Two-finger style gripper, 4. RGB-D camera, 5. Six degree-of-freedom robotic arm, 6. Servo motor, 7. 3D printed linkage with nichrome wire end-effector, and 8. 2D LiDAR sensor
+1. Run the simulation world launch file:
+```
+roslaunch jackal_simulation_iros.launch
+```
 
-<p align='center'>
-    <img src="/p_agbot_description.png" alt="drawing" width="400"/>
-</p>
+2. Run the localization launch file:
+```
+roslaunch amcl_lds.launch
+```
+
+3. Run the navigation launch file:
+```
+roslaunch autonomous_navigation.launch
+```
+
+4-1. Run the crop height estimation launch file:
+```
+roslaunch crop_height.launch
+```
+
+4-2. Run the stalk radius estimation launch file:
+```
+roslaunch stalk_radius.launch
+```
+
+
+
