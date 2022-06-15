@@ -47,12 +47,12 @@ roslaunch amcl_lds.launch
 roslaunch autonomous_navigation.launch
 ```
 
-4-1. Run the crop height estimation launch file:
+4.1. Run the crop height estimation launch file:
 ```
 roslaunch crop_height.launch
 ```
 
-4-2. Run the stalk radius estimation launch file:
+4.2. Run the stalk radius estimation launch file:
 ```
 roslaunch stalk_radius.launch
 ```
